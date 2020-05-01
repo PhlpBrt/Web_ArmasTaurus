@@ -1,0 +1,29 @@
+div.topo {
+	background-color: #7600fd;
+	border: none;
+	height: 100px;
+	width: 100%;
+}
+
+div.topo {
+	margin: none;
+	padding: 2%;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+div.lore {
+	max-width: 50%;
+	height: 2000px;
+}
+
+body {
+	background-color: #e5e5e5;
+	color: #25282b;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
