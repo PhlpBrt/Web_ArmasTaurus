@@ -1,28 +1,71 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="Img/logo-taurus-versao-vertical.png" type="image/x-icon" />
-    <title>Taurus Armas</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="topo">
+    <title>Lojinha</title>
+    <section class="topo">
+        <div class="header1">
+            <h1 id="covid">Informações Covid-19 - Saiba mais</h1>
+        </div>
+
+
+        <div class="header2">
             <div class="logo">
-                <img src="Img/logo-taurus-versao-vertical.png" alt=" Logo" height=120px width=140px>
+                <img src="./img/taurus-logo.png" width="200px">
+
             </div>
+
             <div class="pesquisa">
-                <input type="search" name="barra" class="busca" placeholder="Tudo que você procura">
+                <input type="search" name="barra" class="busca" placeholder="Ex: Glock, 9mm...">
             </div>
             <div class="lupa">
-                <a id="lupinha" title="pesquisa"></a>
+                <img src="./img/icon.png">
+
+            </div>
+            <div class="texto">
+                <h1>Cadastrar</h1>
+                <h1>Entrar</h1>
+            </div>
+            <div class="cadastro">
+                <img src="./img/icon-login.png">
+
             </div>
         </div>
-    </header>
-    <div class="linhaH"></div>
+    </section>
+    <section class="menu">
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="icon-menu">
+                    <img src="./img/icon-menu.png" width="20px">
+                </div>
+                Departamentos
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Armas</a>
+                <a href="#">Munições 2</a>
+                <a href="#">Componentes</a>
+                <a href="#">Rifles</a>
+                <a href="#">Acessórios</a>
+            </div>
+        </div>
+
+        <div class="destaques">
+            <ul>
+                <li id="pistol">Pistolas</li>
+                <li>Revólveres</li>
+                <li>Armas longas</li>
+                <li>Rossi</li>
+                <li>Escopetas</li>
+                <li>Carregadores</li>
+                <li>Coldre</li>
+            </ul>
+        </div>
+    </section>
+
 
 </body>
 
