@@ -45,7 +45,6 @@ body{
     
 }
 input.busca{
-    /*background: url(imagens/icones/icon.png) no-repeat center right;*/
 border: 1px solid black;
 border-right: none;
 width: 500px;
