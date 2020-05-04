@@ -36,15 +36,18 @@ body{
     border: 1px solid black;
     border-left: none;
     
+    
 }
 .lupa img{
     width: 20px;
     height: 20px;
     margin-top: 12px;
     margin-left: 5px;
+
     
 }
 input.busca{
+    /*background: url(imagens/icones/icon.png) no-repeat center right;*/
 border: 1px solid black;
 border-right: none;
 width: 500px;
@@ -145,6 +148,7 @@ border-top-left-radius: 30px;
     .destaques ul{
         text-align: center;
         
+        
     }
     .destaques ul li {
         list-style: none;
@@ -156,6 +160,7 @@ border-top-left-radius: 30px;
         font-family: 'Noto Sans', sans-serif;
         
         
+        
     }
     #pistol{
         padding-left: 
@@ -165,4 +170,70 @@ border-top-left-radius: 30px;
       
      border-bottom: 1px solid black;
     }
+    .grid-container {
+        display: grid;
+        text-align: center;
+        margin-left: 50px;
+        grid-template-columns: auto auto auto auto;
+        
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        text-align: center;
+        width: 250px;
+        height: 350px;
+        margin-bottom: 30px;
+      }
+      .grid-item img{
+          margin-top: 20px;
+      }
+      .grid-item h1{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    #produto{
+            width: 400px;
+            height: 300px;
+            border: 1px solid black;
+    }
+    #produto img{
+        width: 400px;
+        
 
+    }
+    #descricao{
+        height: 300px;
+        width: 900px;
+        border-bottom: 1px solid black;
+        
+
+    }
+    #descricao h1{
+        font-size: 30px;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    #descricao h2{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 10px;
+        font-family:  Arial, Helvetica, sans-serif
+        
+    }
+    #descricao h3{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    #descricao h4{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 10px;
+        font-family:  Arial, Helvetica, sans-serif
+    }

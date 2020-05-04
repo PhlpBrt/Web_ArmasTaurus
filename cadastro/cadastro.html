@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Lojinha</title>
+    <link href="estiloindex.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="topo">
+        <div class="header1">
+            <h1 id="covid">Informações Covid-19 - Saiba mais</h1>
+        </div>
+
+
+        <div class="header2">
+            <div class="logo">
+                <img src="/img/taurus-logo.png" width="200px">
+
+            </div>
+
+            <div class="pesquisa">
+                <input type="search" name="barra" class="busca" placeholder="Ex: Glock, 9mm...">
+            </div>
+            <div class="lupa">
+                <img src="/img/icon.png">
+
+            </div>
+            <div class="texto">
+                <h1>Cadastrar</h1>
+                <h1>Entrar</h1>
+            </div>
+            <div class="cadastro">
+                <img src="/img/icon-login.png">
+
+            </div>
+        </div>
+    </section>
+
+    <div class="table">
+        <table border="1" class="mytab">
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Descricao</th>
+                <th>Qtd </th>
+                <th>valor</th>
+                <th>Desconto</th>
+
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <hr>
+    <div class="box">
+        <h1>Cadastro de produtos</h1>
+
+        <form action="#" method="get">
+            <input type="hidden" name="hidden" value="adicionar" />
+            <div class="linha1">
+                <label>Produto:</label>
+                <input name='produto1' class="prod" id="produtox" type="text" /><br>
+            </div>
+            <div class="linha2">
+                <label>Descrição:</label>
+                <input name='descricao1' class="descr" id="descricaox" type="text" /><br>
+            </div>
+            <div class="linha3">
+                <div class="linha3-1">
+
+                    <label class="labqtd">Quantidade:</label>
+                    <input name="quantidade1" class="qtd" id="quantidadex" type="text" /><br>
+                </div>
+                <div class="linha3-2">
+                    <label>Valor:</label>
+                    <input id="valorx" name="valor1" class="val" type="text" /><br>
+                </div>
+                <div class="linha3-3">
+                    <label>Desconto:</label>
+                    <input id="descontox" name="desc1" class="desco" type="text" /><br>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="linha4">
+        <button type="submit" class="adicionar">Adicionar</button>
+    </div>
+    <div class="maior">
+        <div class="um">
+
+        </div>
+        <div class="dois">
+
+        </div>
+    </div>
+
+
+
+    <script src="js/tabela.js"></script>
+</body>
+
+</html>
