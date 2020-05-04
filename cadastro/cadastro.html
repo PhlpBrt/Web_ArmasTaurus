@@ -13,7 +13,7 @@
 
 <body>
     <section class="topo">
-        <div class="header1">
+        <div id="topo" class="header1">
             <h1 id="covid">Informações Covid-19 - Saiba mais</h1>
         </div>
 
@@ -87,25 +87,68 @@
                 </div>
             </div>
 
+            <div class="linha4">
+        
+                <button type="submit" class="adicionar">Adicionar</button>
+                <button type="reset" class="cancelar">Cancelar</button>
+            </div>
+            
+            <div class="maior">
+                <div class="um">
+        
+                </div>
+                <div class="dois">
+        
+                </div>
+            </div>
 
         </form>
     </div>
+    
+    
 
-    <div class="linha4">
-        <button type="submit" class="adicionar">Adicionar</button>
-    </div>
-    <div class="maior">
-        <div class="um">
+    <form action="mailto:juliana@criarweb.com" method="post" enctype="text/plain">
+        Nome <input type="text" name="nome" size="30" maxlength="100">
+        <br>
+        E-mail <input type="text" name="email" size="25" maxlength="100" value="@">
+        <br>
+        Cidade <input type="text" name="cidade" size="20" maxlength="60">
+        <br>
+        Sexo
+        <br>
+        <input type="radio" name="sexo" value="Masculino" checked> Homem
+        <br>
+        <input type="radio" name="sexo" value="Feminino"> Mulher
+        <br>
+        <br>
+        Frequência das viagens
+        <br>
+        <select name="utilização">
+            <option value="1">Várias vezes por dia
+            <option value="2">Uma vez por dia
+            <option value="3">Várias vezes por semana
+            <option value="4">várias vezes por mês
+        </select>
+        <br>
+        <br>
+        Comentários sobre sua satisfação pessoal
+        <br>
+        <textarea cols="30" rows="7" name="comentários"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="receber_info" checked>
+        Desejo receber notificação das novidades nas linhas de ônibus.
+        <br>
+        <br>
+        <input type="submit" value="Enviar formulário">
+        <br>
+        <br>
+        <input type="Reset" value="Apagar tudo">
+        </form>
 
-        </div>
-        <div class="dois">
-
-        </div>
-    </div>
 
 
-
-    <script src="js/tabela.js"></script>
+    <script src="tabela.js"></script>
 </body>
 
 </html>

@@ -96,25 +96,29 @@ div.table {
 }
 
 input.prod {
-    width: 1000px;
+    width: 1300px;
+    height: 20px;
 }
 
 input.descr {
-    width: 1000px;
+    width: 1300px;
     height: 200px;
     margin-top: 20px
 }
 
 input.qtd {
     margin-top: 20px;
+    height: 20px;
 }
 
 input.val {
     margin-top: 20px;
+    height: 20px;
 }
 
 input.desco {
     margin-top: 20px;
+    height: 20px;
 }
 
 .table {
@@ -126,7 +130,7 @@ input.desco {
 }
 
 .mytab tr:nth-child(even) {
-    background-color: grey;
+    background-color: #e4e4e4;
 }
 
 th {
@@ -136,7 +140,8 @@ th {
 div.box {
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: white;
+    
 }
 
 div.linha1 {
@@ -173,7 +178,6 @@ div.linha3-2 {
 
 div.linha3-3 {
     margin-left: 20px;
-    background-color: none;
     width: 220px;
     height: 70px;
     display: table-cell;
@@ -182,7 +186,7 @@ div.linha3-3 {
 
 div.linha3 {
     width: 1010px;
-    background-color: none;
+   
     height: 70px;
     float: left;
     display: table;
@@ -193,7 +197,7 @@ div.maior {
     margin-top: 1000px;
     width: 220px;
     height: 50px;
-    background-color: none;
+    
     display: table;
 }
 
@@ -218,13 +222,29 @@ input.desco {
 }
 
 div.linha4 {
-    background-color: gray;
+    background-color: white;
     width: 100%;
     height: 70px;
+    margin-right: 50px;
 }
 
 button.adicionar {
     width: 100px;
     height: 50px;
     border-radius: 7px;
+    float: right;
+    margin-right: 100px;
+}
+.adicionar:hover{
+    background-color: black;
+    color: white;
+}
+button.cancelar {
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+}
+.cancelar:hover{
+    background-color: black;
+    color: white; 
 }
