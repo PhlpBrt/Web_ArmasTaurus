@@ -1,86 +1,89 @@
-body{
+body {
     margin: 0;
-    
 }
-.header2{
+
+.header2 {
     width: 100%;
     height: 80px;
     background-color: white;
     border-bottom: 1px solid black;
-    
+    position: -webkit-sticky;
+    position: sticky;
 }
-.logo{
+
+.logo {
     width: 20%;
     padding-left: 40px;
     float: left;
-   
 }
-.pesquisa{
-	
-	height: 50px;
-	width: 30%;
+
+.pesquisa {
+    height: 50px;
+    width: 30%;
     background-color: none;
     margin-top: 18px;
-    float: left;    
+    float: left;
 }
-.lupa{
+
+.lupa {
     height: 43px;
     width: 30px;
     background-color: white;
     float: left;
     margin-top: 18px;
     border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;  
-    margin-left: 92px; 
+    border-bottom-right-radius: 30px;
+    margin-left: 92px;
     border: 1px solid black;
     border-left: none;
-    
-    
 }
-.lupa img{
+
+.lupa img {
     width: 20px;
     height: 20px;
     margin-top: 12px;
     margin-left: 5px;
+}
 
-    
+input.busca {
+    border: 1px solid black;
+    border-right: none;
+    width: 500px;
+    height: 45px;
+    font-size: 19px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
-input.busca{
-    /*background: url(imagens/icones/icon.png) no-repeat center right;*/
-border: 1px solid black;
-border-right: none;
-width: 500px;
-height: 45px;
-font-size: 19px;
-border-bottom-left-radius: 30px;
-border-top-left-radius: 30px;
-}
-.cadastro img{
+
+.cadastro img {
     width: 45px;
     float: right;
     margin-top: 18px;
-    margin-right: 20px;
+    margin-right: 18px;
+    margin-left: 6px;
 }
-::-webkit-input-placeholder  { 
-    color:#a6a6a6; 
+
+::-webkit-input-placeholder {
+    color: #a6a6a6;
     padding-left: 10px;
     font-size: 18px;
     opacity: 50%;
 }
-.texto{
-    float: left;
-    padding-left: 320px;
-    margin-top: 21px;
 
+.texto {
+    float: left;
+    padding-left: 280px;
+    margin-top: 18px;
 }
-.texto h1{
+
+.texto h1 {
     font-size: 14px;
     float: right;
-    margin-left: 6px;
+    margin-left: 4px;
     font-family: 'Noto Sans', sans-serif;
-
 }
-.header1{
+
+.header1 {
     width: 100%;
     height: 20px;
     background-color: #dfdede;
@@ -88,6 +91,7 @@ border-top-left-radius: 30px;
     font-size: 8px;
     font-family: 'Noto Sans', sans-serif;
 }
+
 .dropbtn {
     background-color: white;
     color: black;
@@ -95,171 +99,268 @@ border-top-left-radius: 30px;
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
     border: none;
-    
-  }
-  .dropbtn img{
-      margin-top: px;
-  }
-  
-  .dropdown {
+}
+
+.dropbtn img {
+    margin-top: px;
+}
+
+.dropdown {
     position: relative;
     margin-top: -16px;
     display: inline-block;
     float: left;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-  
-  .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  
-  .dropdown:hover .dropbtn {
-      border-bottom: 1px solid black;
-    }
-    .icon-menu{
-        float: left;
-        margin-right: 5px;
-        margin-top: -2px;
-        margin-left: -5px;
-        
-    }
-    .destaques ul{
-        text-align: center;
-        
-        
-    }
-    .destaques ul li {
-        list-style: none;
-        float: left;
-        padding-left: 50px;
-        padding-right: 55px;
-        font-size: 14px;
-        height: 37px;
-        font-family: 'Noto Sans', sans-serif;
-        
-        
-        
-    }
-    #pistol{
-        padding-left: 
-        px;
-    }
-    .destaques ul li:hover {
-      
-     border-bottom: 1px solid black;
-    }
-    .grid-container {
-        display: grid;
-        text-align: center;
-        margin-left: 50px;
-        grid-template-columns: auto auto auto auto;
-        
-      }
-      
-      .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        text-align: center;
-        width: 250px;
-        height: 350px;
-        margin-bottom: 30px;
-      }
-      .grid-item img{
-          margin-top: 20px;
-      }
-      .grid-item h1{
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 15px;
-        padding-top: 30px;
-    }
-    #produto{
-            width: 400px;
-            height: 300px;
-            border: 1px solid black;
-    }
-    #produto img{
-        width: 400px;
-        
+}
 
-    }
-    #descricao{
-        height: 300px;
-        width: 900px;
-        border-bottom: 1px solid black;
-        
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-    }
-    #descricao h1{
-        font-size: 30px;
-        text-align: left;
-        padding-left: 10px;
-        font-family: 'Noto Sans', sans-serif;
-    }
-    #descricao h2{
-        font-size: 15px;
-        text-align: left;
-        padding-left: 10px;
-        font-family:  Arial, Helvetica, sans-serif
-        
-    }
-    #descricao h3{
-        font-size: 15px;
-        text-align: left;
-        padding-left: 10px;
-        font-family: 'Noto Sans', sans-serif;
-    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-    #descricao h4{
-        font-size: 15px;
-        text-align: left;
-        padding-left: 10px;
-        font-family:  Arial, Helvetica, sans-serif
-    }
-    .mytab{
-        border:none;
-        margin-top: -110px;
-    }
-    .mytab th{
-        font-family: 'Noto Sans', sans-serif;
-    }
-    .box h1{
-        text-align: center;
-        font-family: 'Noto Sans', sans-serif;
-        border-bottom: 1px solid black;
-    }
-    .box label{ 
-        font-family: 'Noto Sans', sans-serif;
+.dropdown:hover .dropbtn {
+    border-bottom: 1px solid black;
+}
 
-    }
-    .box input{
-        border: 1px solid black;
-        border-radius: 2px;
-        margin: 5px;
-        margin-left: -2px;
-    }
-    .mytab tr{
-        text-align: center;
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 14px;
-    }
+.icon-menu {
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+    margin-left: -5px;
+}
+
+.destaques ul {
+    text-align: center;
+}
+
+.destaques ul li {
+    list-style: none;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    height: 37px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#pistol {
+    padding-left: px;
+}
+
+.destaques ul li:hover {
+    border-bottom: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    text-align: center;
+    margin-left: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.grid-item img {
+    margin-top: 20px;
+}
+
+.grid-item h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+#produto {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#produto img {
+    width: 400px;
+}
+
+#descricao {
+    height: 300px;
+    width: 900px;
+    border-bottom: 1px solid black;
+}
+
+#descricao h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#descricao h2 {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#descricao h3 {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#descricao h4 {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.mytab {
+    border: none;
+    margin-top: -110px;
+}
+
+.mytab th {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.box h1 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.box label {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.box input {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5px;
+    margin-left: -2px;
+}
+
+.mytab tr {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+#modal .content {
+    margin-top: 10%;
+    color: black;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 20%;
+    max-width: 800px;
+    margin: 0 auto 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.content form div:nth-child(3), .content form div:nth-child(4), .content form div:nth-child(2), form div:nth-child(1){
+    grid-column: span 2;
+}
+
+.grid-item h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.grid-item h5 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+#modal .content {
+    margin-top: 10%;
+    color: black;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 20%;
+    max-width: 800px;
+    margin: 0 auto 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+}
+
+form button:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+form button {
+    background: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 32px;
+    grid-column: 2;
+    justify-self: end;
+    transition: 400ms;
+}
+#segundo{
+    display: none;
+}

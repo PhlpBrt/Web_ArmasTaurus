@@ -98,6 +98,7 @@ div.table {
 input.prod {
     width: 1300px;
     height: 20px;
+    margin-bottom: 50px;
 }
 
 input.descr {
@@ -247,4 +248,7 @@ button.cancelar {
 .cancelar:hover{
     background-color: black;
     color: white; 
+}
+.linha2{
+    margin-top: 10px;
 }

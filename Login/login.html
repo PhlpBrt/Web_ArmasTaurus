@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lojinha</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <script src="../js/scripts.js"></script>
+</head>
+
+<body>
+    <section class="topo">
+        <div class="header1">
+            <h1 id="covid">Informações Covid-19 - Saiba mais</h1>
+        </div>
+
+
+        <div class="header2">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/taurus-logo.png" width="200px"></a>
+
+            </div>
+
+            <div class="pesquisa">
+                <input type="search" name="barra" class="busca" placeholder="Ex: Glock, 9mm...">
+            </div>
+            <div class="lupa">
+                <img src="../img/icon.png">
+
+            </div>
+            <div class="texto">
+                <a href="../cadastro/cadastro.html">
+                    <h1>Cadastrar</h1>
+                </a>
+                <a href="../Login/login.html">
+                    <h1>Entrar |</h1>
+                </a>
+            </div>
+            <div class="cadastro">
+                <img src="../img/icon-login.png">
+
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="icon-menu">
+                    <img src="../img/icon-menu.png" width="20px">
+                </div>
+                Departamentos
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Armas</a>
+                <a href="#">Munições</a>
+                <a href="#">Componentes</a>
+                <a href="#">Rifles</a>
+                <a href="#">Acessórios</a>
+            </div>
+        </div>
+
+        <div class="destaques">
+            <ul>
+                <li id="pistol">Pistolas</li>
+                <li>Revólveres</li>
+                <li>Armas longas</li>
+                <li>Rossi</li>
+                <li>Escopetas</li>
+                <li>Carregadores</li>
+                <li>Coldres</li>
+            </ul>
+        </div>
+    </section>
+    <div id="modal">
+        <div class="content">
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="title">Nome</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" name="E-mail">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Senha</label>
+                    <input type="password" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Confirmação da Senha</label>
+                    <input type="password" name="image">
+                </div>
+
+                <button onclick="mostra('segundo')">Próximo</button>
+            </form>
+        </div>
+        <div id="segundo" class="content">
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="logra">Logradouro</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="comple">Complemento</label>
+                    <input type="email" name="E-mail">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="city">Cidade</label>
+                    <input type="password" name="image">
+                </div>
+
+
+                <div class="input-wrapper">
+                    <label for="estado">UF</label>
+                    <select id="estados" name="UF">
+                        <option value="PE">PE</option>
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="BA">BA</option>
+                    </select>
+                </div>
+
+                <button href="#">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
